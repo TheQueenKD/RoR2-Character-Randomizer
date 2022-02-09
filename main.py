@@ -21,4 +21,7 @@ def get_survivor():
 
 
 if __name__ == '__main__':
-    print(f'You should play: {get_survivor()}')
+    players = int(input('How many players? (Default: 2) ') or 2)
+    print()
+    for player in range(1, 1 + players):
+        print(f'Player {player} you should play: {get_survivor()}')
