@@ -13,6 +13,8 @@ CHARACTERS = [
     'Loader',
     'Mercenary',
     'MUL-T',
+    'Railgunner',
+    'Void Fiend',
 ]
 
 
